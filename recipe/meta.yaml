@@ -33,6 +33,7 @@ requirements:
   host:
     - r-base
     - libblas
+    - liblapack
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
@@ -44,7 +45,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=kernlab
-  license: GPL-2.0-pnly
+  license: GPL-2.0-only
   summary: Kernel-based machine learning methods for classification, regression, clustering,
     novelty detection, quantile regression and dimensionality reduction.  Among other
     methods 'kernlab' includes Support Vector Machines, Spectral Clustering, Kernel
