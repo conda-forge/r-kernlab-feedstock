@@ -3,7 +3,7 @@ About r-kernlab
 
 Home: https://CRAN.R-project.org/package=kernlab
 
-Package license: GPL-2
+Package license: GPL-2.0-pnly
 
 Feedstock license: BSD 3-Clause
 
