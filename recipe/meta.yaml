@@ -1,4 +1,4 @@
-{% set version = "0.9-30" %}
+{% set version = "0.9-31" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/kernlab_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/kernlab/kernlab_{{ version }}.tar.gz
-  sha256: 48fc3a839ae57e8ab6ec26a34093ca3306391e7b271bef6e69812e2b4859ee81
+  sha256: 7359c665c1c5e6780e1ce44b143347c8eec839301c3079d7f19e29159873278a
 
 build:
   merge_build_host: true  # [win]
