@@ -1,4 +1,4 @@
-{% set version = "0.9-32" %}
+{% set version = "0.9-33" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/kernlab_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/kernlab/kernlab_{{ version }}.tar.gz
-  sha256: 654ef34e343deb4d2c4c139a44e5397d6e38876088ce1c53c7deb087935d6fdc
+  sha256: 70c0787d6d3762c89bb68218fbee19e861fcb5d4c05b787a9692055d95dd3061
 
 build:
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
